@@ -7,5 +7,6 @@
 You can run the example program with `odin run example` from the root of this repository.
 
 Static libs for the `windows_amd64` and `linux_amd64` targets are included, but you should not trust libraries downloaded this way, and [compile them yourself](https://bkaradzic.github.io/bgfx/build.html).
+For mac, only debug libs are included. Be aware of a known issue when using GLFW on mac where you need to use `BGFX_CONFIG_MULTITHREADED=0` when compiling. See [known issue](https://github.com/bkaradzic/bgfx/discussions/3033#discussioncomment-4870135)
 
 The example program contains compiled shaders. You will need to compile bgfx's [shaderc](https://bkaradzic.github.io/bgfx/tools.html#shader-compiler-shaderc) tool to build your own shaders.

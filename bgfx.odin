@@ -55,6 +55,8 @@ when ODIN_OS == .Windows {
     "system:IOKit.framework",
     "system:OpenGL.framework",
     "system:QuartzCore.framework",
+    "system:Metal.framework",
+    "system:c++",
   }
   } else {
   foreign import lib {
@@ -66,6 +68,8 @@ when ODIN_OS == .Windows {
     "system:IOKit.framework",
     "system:OpenGL.framework",
     "system:QuartzCore.framework",
+    "system:Metal.framework",
+    "system:c++",
   }
   }
 } else {
